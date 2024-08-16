@@ -1,0 +1,50 @@
+{
+  "name": "dash",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "depcheck": "depcheck"
+  },
+  "dependencies": {
+    "@ant-design/compatible": "5.1.2",
+    "@ant-design/icons": "5.1.4",
+    "@ant-design/pro-layout": "7.16.13",
+    "@hapi/iron": "^7.0.0",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@uiw/react-md-editor": "^3.20.2",
+    "antd": "5.8.6",
+    "app-root-path": "^3.0.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "depcheck": "^1.2.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "^13.5.1",
+    "next": "^13.5.1",
+    "next-connect": "^0.12.2",
+    "next-remove-imports": "^1.0.12",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serverless-mysql": "^1.5.4",
+    "swr": "^1.1.2",
+    "typescript": "5.2.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie": "^0.5.1",
+    "@types/cors": "^2.8.13",
+    "@types/passport-local": "^1.0.35"
+  }
+}
